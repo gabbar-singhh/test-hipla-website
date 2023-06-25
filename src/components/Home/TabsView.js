@@ -38,7 +38,7 @@ const TabsView = () => {
                       <Fade bottom>
                         <StyledImage
                           src={
-                            "../public/vectors/smart-office-bcc8d2fd1b3f37bfa62031dd0dbdee2d.svg"
+                            "/vectors/smart-office-bcc8d2fd1b3f37bfa62031dd0dbdee2d.svg"
                           }
                           alt="smart-office-logo"
                           height="34px"
@@ -65,14 +65,14 @@ const TabsView = () => {
                     <Fade bottom>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Improve meeting room effectively
                       </li>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Increase brand visibility, with customized forms and
@@ -80,7 +80,7 @@ const TabsView = () => {
                       </li>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Increase efficiency by cutting attendance<br></br> and
@@ -102,7 +102,7 @@ const TabsView = () => {
                       <Fade bottom>
                         <StyledImage
                           src={
-                            "../public/vectors/smart-office-bcc8d2fd1b3f37bfa62031dd0dbdee2d.svg"
+                            "/vectors/smart-office-bcc8d2fd1b3f37bfa62031dd0dbdee2d.svg"
                           }
                           alt="smart-office-logo"
                           height="30px"
@@ -126,21 +126,21 @@ const TabsView = () => {
                     <Fade bottom>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Predict and prevent any safety hazards.
                       </li>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Minimize downtime.
                       </li>
                       <li>
                         <Tick
-                          src={"../public/vectors/iconT.svg"}
+                          src={"/vectors/iconT.svg"}
                           alt="smart-office-logo"
                         />
                         Track SOP compliance.

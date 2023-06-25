@@ -26,7 +26,7 @@ const Products = () => {
               <ServiceCard
                 title="Visitor Management"
                 description="Contractors, Visitors & Customers. 5-seconds check-in. Automated notifications and workflows."
-                icon={"../public/vectors/visitor-management.svg"}
+                icon={"/vectors/visitor-management.svg"}
                 href="/products/access-cloud#first"
               />
             </Col> 
@@ -34,7 +34,7 @@ const Products = () => {
               <ServiceCard
                 title="Meeting Room Management"
                 description="Master meeting-room bookings, access-sharing and notifications. Easier meeting room occupancy reports and suggestions."
-                icon={"../public/vectors/meeting-management.svg"}
+                icon={"/vectors/meeting-management.svg"}
                 href="/products/access-cloud#employee-attendance"
               />
             </Col>
@@ -43,7 +43,7 @@ const Products = () => {
               <ServiceCard
                  title="Digital Access Control"
                 description="Master meeting-room bookings, access-sharing and notifications. Easier meeting room occupancy reports and suggestions."
-                icon={"../public/vectors/meeting-management.svg"}
+                icon={"/vectors/meeting-management.svg"}
                 href="/products/access-cloud#employee-attendance"
               />
               
@@ -59,7 +59,7 @@ const Products = () => {
           <Col xs={12} md={6}>
             <Image
              style={{marginTop:"10%"}}
-              src={"../public/gif/visitormanagementsystemsoftware.webp"}
+              src={"/gif/visitormanagementsystemsoftware.webp"}
               width="100%"
               alt="visitormanagementsystemsoftware-logo-hipla"
               // height="70%"

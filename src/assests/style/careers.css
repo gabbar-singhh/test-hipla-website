@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  
+}
+
+.bg1
+{
+	background-color: white;
+}
+
+.bg2
+{
+	background-color: #F6FAFD;
+}
+.section1{
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 80px
+}
+
+.heading1
+{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.description1
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 146.4%;
+	text-align: center;
+	margin-left: 23%;
+	margin-right: 23%;
+	margin-top: 15px;
+}
+
+.box1 {
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.box2 {
+    margin-left: 10px;
+    margin-right: 5px!important;
+    overflow: hidden;
+}
+
+.box3 {
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.box4 {
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.heading-1 {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 146.4%;
+    text-align: center;
+}
+.section-1 {
+    padding: 75px 0;
+    border-bottom: 1px solid #EEEEEE
+}
+
+.space1
+{
+	margin-right:50px;
+    filter: grayscale(100%);
+}
+
+.section-2 {
+    background-color: #F6FAFD;
+    padding:100px 0;
+}
+
+.heading-2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    align-items: center;
+    text-align: center;
+    color: #1D1D1D;
+    margin-bottom: 72px;
+}
+.tick {
+	
+	position: absolute;
+	width: 28px;
+	height: 28px;
+}
+
+.title2 {
+    font-size: 22px;
+    line-height: 146.4%;
+}
+.paragraph1{
+    font-size: 18px;
+    line-height: 146.4%;
+}
+.gap1 {
+    margin-top: 71px;
+}
+
+.gap2 {
+    margin-top: 45px;
+}
+.section-4 {
+    padding:78px 0 66px 0;
+    background-color: #F6FAFD;
+}
+.box {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 23px 19px;
+}
+
+.paragraph2 {
+    font-size: 16px;
+    line-height: 146.4%;
+}
+.paragraph3 {
+    font-size: 16px;
+    line-height: 146.4%;
+    margin-top:21px;
+}
+.applybtn {
+    background: transparent;
+    border: none;
+    color:#2D59A8;
+    
+    font-size: 17px;
+    line-height: 146.4%;
+}
+.resume {
+    font-size: 16px;
+    line-height: 146.4%;
+    text-align: center;
+    margin-top: 26px;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .space1{
+        margin-left:25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+  }

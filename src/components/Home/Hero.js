@@ -12,21 +12,21 @@ const Hero = () => {
         className="animatedrow"
         style={{ marginLeft: "8%", marginRight: "2%" }}
       >
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Image
                 style={{ width: "110%", marginTop: "23%" }}
-                src={"../public/gif/animation.webp"}
+                src={"/gif/animation.webp"}
                 alt="animation-logo-hipla"
               />
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Fade bottom>
                 <StyledImage
                   style={{ width: "100%", marginLeft: "13%" }}
-                  src={"../public/gif/animation.webp"}
-                  alt="BANNER_2info-logo-hipla"
+                  src={"/gif/BANNER_2info.webp"}
+                  alt="banner"
                 />
               </Fade>
             </div>

@@ -1,0 +1,26 @@
+
+ 
+   /* @media only screen and (max-width: 767px) {
+     .banner1{
+        margin-left:50%;
+     }
+   }
+   @media only screen and (max-width: 767px) {
+    .img{
+        width:100%;
+
+    }
+  } */
+   
+  @media only screen and (max-width: 767px) {
+    .hide{
+        visibility: hidden;
+        
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .hide1{
+        visibility: hidden;
+        
+    }
+  }

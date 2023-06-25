@@ -8,7 +8,7 @@ import { Fade } from "react-reveal";
 
 const TESTIMONIAL = [
   {
-    image: "../public/images/lg-bg.png",
+    image: "/images/lg-bg.png",
     text: "We implemented Contatrack.ai in our corporate offices and plant - the Hipla team was very supportive throughout the process, and went the extra mile to deliver custom enhancement unique to our organisational needs at every step to ensure that our workspaces are operating at their highest levels of safety. We are continually impressed with their vision and commitment to understanding and delivering client needs, and are exploring new implementation opportunities with them as well.",
     by: {
       name: "AJAY RAMBAL",
@@ -18,7 +18,7 @@ const TESTIMONIAL = [
       "Hipla eco system helps AIPL to setup their smart workplace. Hipla eco system helps AIPL to setup their smart workplace.",
   },
   {
-    image: "../public/images/vehere-bg.png",
+    image: "/images/vehere-bg.png",
     text: "We at Vehere are immensely pleased with The Visitor Management and Smart Office system from Hipla. It has made a substantial impact within our company on optimizing time, stepping up security, reviewing the number of meetings with exact time logs. It is like a keyless entry with all the required information and ingredients, working as an absolute customer delight and creating a wow experience for our visitors in an automated architecture.",
     by: {
       name: "Vijeta Rakesh",
@@ -28,7 +28,7 @@ const TESTIMONIAL = [
       "Hipla eco system helps AIPL to setup their smart workplace. Hipla eco system helps AIPL to setup their smart workplace.",
   },
   {
-    image: "../public/images/writer-bg.png",
+    image: "/images/writer-bg.png",
     text: "Hipla team was amazing, patient and cooperative and the way they communicated, managed and ensured completion of the project is commendable. This is a truly appreciating engagement and we are content with you and your team and the way they managed to get things onboard. I am thankful to all the team Hipla to have spent time for a successful delivery at WSG.",
     by: {
       name: "Swapnil S Bagul",
@@ -50,7 +50,7 @@ const Testimonials = () => {
 
       <CarouselHolder
         style={{
-          background: "url(../../public/vectors/dotted-bg.svg",
+          background: "url(/vectors/dotted-bg.svg",
         }}
       >
         <StyledContainer>

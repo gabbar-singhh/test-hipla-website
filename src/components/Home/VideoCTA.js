@@ -14,7 +14,7 @@ const VideoCTA = ({ forModalOpen }) => {
         height:"321px",
         boxSizing:"border-box",
         backgroundImage:
-          "url(../../public/images/background.png",
+          "url(/images/background.png",
       }}
     >
       <div class="container-fluid">
