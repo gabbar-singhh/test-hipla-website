@@ -26,7 +26,7 @@ import VEHERE from "../public/images/vehere.png";
 import { useRouter } from "next/router";
 import PhoneInput from 'react-phone-number-input';
 import Head from "next/head";
-// import "../styles/phone.css";
+import "../styles/phone.css";
 
 const BRANDS = [AIPL,PRESTIGE,WRITER,YES,AMAZON, LG,SATTVA,WHITE,MC,SIMPLE,DPS,APN,PEOPLE,FREE,BREAD];
 
