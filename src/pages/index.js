@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styled from "styled-components";
-// import Script from "next/script";  
+// import Script from "next/script";
+import HeroSection from "@/components/HeroSection/HeroSection";
+import VmsSection from "@/components/VMS_Section/VmsSection";
 
 import {
   Hero,
@@ -13,22 +15,20 @@ import {
 
 const Home = ({ forModalOpen }) => {
   return (
-    <div>
-     
-      <Main>
-        <Hero />
-        <div className="maindiv1">
-          <Clients />
-          <Products />
-          <VideoCTA forModalOpen={forModalOpen} />
-          <TabsView />
-          <Testimonials />
-        </div>
-      </Main>
-    </div>
+    <section>
+      <HeroSection />
+      <VmsSection/>
+
+      {/* <Hero /> */}
+      {/* <div className="maindiv1"> */}
+      {/* <Clients /> */}
+      {/* <Products /> */}
+      {/* <VideoCTA forModalOpen={forModalOpen} /> */}
+      {/* <TabsView /> */}
+      {/* <Testimonials /> */}
+      {/* </div> */}
+    </section>
   );
 };
 
 export default Home;
-
-const Main = styled.div``;

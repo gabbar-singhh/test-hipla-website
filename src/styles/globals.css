@@ -14,6 +14,10 @@ body {
   line-height: 1.6 !important;
 }
 
+body {
+  background-color: #dbdbdb24;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -21,6 +25,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* SCROLL CSS */
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  padding: 2em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(164, 164, 164);
+  border-radius: 0.5em;
 }
 
 .loading {

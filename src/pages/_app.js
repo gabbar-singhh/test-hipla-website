@@ -42,22 +42,14 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Poppins:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
       </Head>
 
       <NavigationBar />
       <Component {...pageProps} />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
-
-const Main = styled.div`
-  margin-top: 80px;
-`;
-
-const StyledModalVideo = styled(ModalVideo)`
-  z-index: 999999;
-`;

@@ -1,0 +1,98 @@
+/* CSS STYLES COMPONENTS */
+.SUB_HEADING h3 {
+    color: #2d59a7;
+    font-size: 1.8em;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+}
+
+.SOFTWARE_IN {
+    margin: 3em 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CONTAINER_IN {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+    padding: 0;
+    margin: 0;
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    padding: 2em;
+    border-radius: 10px;
+    border: 1px solid rgb(45 89 167 / 10%);
+}
+
+.RIGHTSIDE_IN ul {
+    list-style-type: none;
+
+}
+
+.RIGHTSIDE_IN ul li {
+    margin-bottom: 1em;
+}
+
+.RIGHTSIDE_IN ul li:last-child {
+    margin-bottom: 0;
+}
+
+.RIGHTSIDE_IN ul li h4 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #737373;
+}
+
+.RIGHTSIDE_IN ul li p {
+    font-size: 14px;
+    color: #737373;
+    text-align: left;
+}
+
+.main {
+    margin: 3em 5em;
+    cursor: default;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    height: 70vh;
+    margin-bottom: 2em;
+}
+
+.main .container .vms_txt h3 {
+    font-size: 2.4em;
+}
+
+.main .vms_txt p {
+    font-size: 15px;
+    color: #737373;
+}
+
+.main .vms_txt ul {
+    padding: 0;
+    list-style-type: none;
+    color: #737373;
+}
+
+/* BOOK IN THREE WAYS - SECTION */
+.book_section {
+    text-align: center;
+}
+
+.book_section .book_ways {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
