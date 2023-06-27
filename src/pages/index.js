@@ -2,7 +2,7 @@ import Head from "next/head";
 import styled from "styled-components";
 // import Script from "next/script";
 import HeroSection from "@/components/HeroSection/HeroSection";
-import VmsSection from "@/components/VMS_Section/VmsSection";
+import VmsSection from "@/components/MRM_Section/MrmSection";
 
 import {
   Hero,
