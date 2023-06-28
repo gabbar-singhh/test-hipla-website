@@ -1,6 +1,6 @@
 /* CSS STYLES COMPONENTS */
 .SUB_HEADING h3 {
-    color: #2d59a7;
+    color: #fff;
     font-size: 1.8em;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
@@ -58,59 +58,76 @@
 }
 
 .main {
-    margin: 3em 5em;
+    border-radius: 1em;
     cursor: default;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2d59a7;
 }
 
-.main .container {
+.main_container {
+    margin: 3em 5em;
+
+}
+
+.main .main_container .container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5em;
-    /* height: 70vh; */
-    margin: 2em 0;
+    margin-bottom: 2em;
 }
 
-.main .container .mrm_txt h3 {
+.container .vms_txt h3 {
     font-size: 2.4em;
+    color: #fff;
 }
 
-.main .mrm_txt p {
+.container .vms_txt p {
     font-size: 15px;
-    color: #484848;
+    color: #ffffffbf;
 }
 
-.main .mrm_txt ul {
+.container .vms_txt ul {
     padding: 0;
     list-style-type: none;
 }
 
-.main .mrm_txt ul li {
+.container .vms_txt ul li {
     display: flex;
     align-items: center;
-    color: #2d59a7;
+    color: #fff;
     display: flex;
     gap: 0.4em;
     margin-bottom: 0.5em;
 }
 
-.main .mrm_txt ul li span {
+.container .vms_txt ul li span {
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 10px;
     padding: 7px 8px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    background-color: rgb(162 170 212 / 17%);
-    box-shadow: 0 3px 22px 0 rgb(214 212 212 / 35%);
+    background-color: rgb(79 118 186 / 45%);
+    box-shadow: 0 3px 22px 0 rgb(72 114 188 / 51%);
 }
 
-.main .mrm_txt ul li h6 {
+.container .vms_txt ul li h6 {
     margin: 0;
     font-weight: 500;
-    font-size: 14px;    
+    font-size: 14px;
+}
+
+/* Check-Ins Container */
+.simplify h3{
+    text-align: center;
+}
+
+.simplify .check_ins_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 
 /* BOOK IN THREE WAYS - SECTION */
@@ -122,32 +139,6 @@
 .book_section .book_ways {
     display: flex;
     align-items: center;
-    gap: 1em;
-}
-
-.calendar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 3em 0;
-    width: 80%;
-}
-
-.calendar h3 {
-    font-size: 1.8em;
-}
-
-.card_container {
-    display: flex;
-    gap: 0.5em;
-    align-items: center;
     justify-content: center;
-}
-
-.calCard {
-    backdrop-filter: blur(3.5px);
-    -webkit-backdrop-filter: blur(3.5px);
-    padding: 1.5em;
-    border-radius: 10px;
-    border: 1px solid rgb(45 89 167 / 10%);
+    gap: 1em;
 }

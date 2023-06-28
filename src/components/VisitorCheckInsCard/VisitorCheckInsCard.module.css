@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.8em;
+    padding: 1.2em 1.5em;
+    border: 1px solid red;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 365px;
+}
+
+.main h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main p {
+    color: #ffffffbf;
+    font-size: 1em;
+}

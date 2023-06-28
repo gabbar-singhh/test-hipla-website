@@ -110,27 +110,27 @@ const MrmSection = () => {
           <div className={styles.RIGHTSIDE_IN}>
             <ul>
               <li>
+                <h4>Create Meetings</h4>
+                <p>
+                  Schedule and create meetings with our intuitive Meeting Room
+                  Software. Ensuring efficient utilization of resources and
+                  optimal productivity.
+                </p>
+              </li>
+              <li>
+                <h4>Meeting Notifications</h4>
+                <p>
+                  Meeting Room Software sends timely notifications, providing
+                  you with all the necessary details to plan your schedule
+                  effectively.
+                </p>
+              </li>
+              <li>
                 <h4>Integratation with Other Tools</h4>
                 <p>
                   Seamlessy integrates with other tools, such as calendars and
                   productivity software, to enhance the overall meeting
                   experience.
-                </p>
-              </li>
-              <li>
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  aliquam saepe culpa. Possimus, consequuntur explicabo.
-                </p>
-              </li>
-              <li>
-                <h4>Lorem, ipsum.</h4>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Rerum magni error esse ab at. Reiciendis saepe facere quos
-                  eius commodi? Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Repellat.
                 </p>
               </li>
             </ul>
@@ -182,9 +182,55 @@ const MrmSection = () => {
         </div>
       </div>
 
+      {/* HIPLA MEETING ROOM SYSTEM (TAB)*/}
+      <div className={`${styles.SOFTWARE_IN} ${styles.SUB_HEADING}`}>
+        <h3>Meeting Room Software on the Tab</h3>
+
+        <div className={styles.CONTAINER_IN}>
+          <div className={styles.leftside_web}>
+            <Image
+              src={"/images/mrm_img.png"}
+              width={300}
+              height={250}
+              alt="meeting room on tab"
+            />
+          </div>
+
+          <div className={styles.RIGHTSIDE_IN}>
+            <ul>
+              <li>
+                <h4>Quick Book</h4>
+                <p>
+                  With just a few taps, reserve the ideal meeting room for your
+                  team, saving time and eliminating scheduling conflicts.
+                </p>
+              </li>
+              <li>
+                <h4>End Meeting</h4>
+                <p>
+                  Mark the completion of the session with a simple action,
+                  ensuring accurate tracking of room availability and efficient
+                  resource management.
+                </p>
+              </li>
+              <li>
+                <h4>Color-coded Schedule</h4>
+                <p>
+                  Easily view ongoing and upcoming meetings, with colors
+                  assigned to each event for clear differentiation. Avoid any
+                  overlapping commitments.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       {/* HIPLA CALENDARS INTEGRATIONS */}
       <div className={`${styles.SUB_HEADING} ${styles.calendar}`}>
-        <h3>Meeting Room Software in your <br /> Calendar</h3>
+        <h3>
+          Meeting Room Software in your <br /> Calendar
+        </h3>
 
         <div className={`${styles.card_container}`}>
           <div className={styles.calCard}>

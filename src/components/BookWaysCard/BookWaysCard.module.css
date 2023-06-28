@@ -13,14 +13,22 @@
     padding: 2em;
     border-radius: 10px;
     border: 1px solid rgb(45 89 167 / 10%);
+
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
+/* 
 .book_card:hover {
     box-shadow: 0 11px 85px 0 rgb(204 204 204 / 59%);
     cursor: pointer;
     transform: scale(1.0005);
     transition: all 500ms ease-in;
-}
+} */
 
 .book_card h4 {
     padding: 0;
