@@ -5,14 +5,12 @@ const VisitorCheckInsCard = (props) => {
   return (
     <section className={styles.main}>
       <span>
-        <img src={props.img} height={35} alt="" />
+        <img src={props.img} height={30} alt="" />
       </span>
 
       <h4>{props.title}</h4>
 
-      <p>
-       {props.desc}
-      </p>
+      <p>{props.desc}</p>
     </section>
   );
 };

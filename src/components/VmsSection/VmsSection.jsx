@@ -126,7 +126,7 @@ const VmsSection = () => {
 
       {/*  VMS ON YOUR WEB!*/}
       <div className={`${styles.SOFTWARE_IN} ${styles.SUB_HEADING}`}>
-        <h3>Meeting Room Software on the Web</h3>
+        <h3>Visitor Management System on the Web</h3>
 
         <div className={styles.CONTAINER_IN}>
           <div className={styles.leftside_app}>
@@ -169,7 +169,7 @@ const VmsSection = () => {
 
       {/* VMS ON YOUR APP */}
       <div className={`${styles.SOFTWARE_IN} ${styles.SUB_HEADING}`}>
-        <h3>Meeting Room Software on the App</h3>
+        <h3>Visitor Management Software on the App</h3>
 
         <div className={styles.CONTAINER_IN}>
           <div className={styles.leftside_app}>
@@ -184,26 +184,23 @@ const VmsSection = () => {
           <div className={styles.RIGHTSIDE_IN}>
             <ul>
               <li>
-                <h4>Real-time Dashboard</h4>
+                <h4>Create Visits</h4>
                 <p>
-                  Provides real-time data and analytics on visitor traffic,
-                  enabling businesses to optimise resources and make informed
-                  decisions.
+                  Create visit with our intuitive Visitor management system.
+                  Ensuring efficient utilization of resources and optimal
+                  productivity.
                 </p>
               </li>
               <li>
-                <h4>Adjust bookings instantly</h4>
+                <h4>Instant Visitor Arrival Alert</h4>
                 <p>
-                  Instant adjustments to bookings, provide businesses with the
-                  adapt to changing circumstances.
+                  When visitors arrive, ensure that they are promptly greeted
+                  and provide an additional layer of security to the premise
                 </p>
               </li>
               <li>
-                <h4>Book with ease</h4>
-                <p>
-                  Easily manage bookings, whether it's scheduling appointments
-                  or reserving meeting rooms.
-                </p>
+                <h4>Efficient Track Functionality</h4>
+                <p>Allowing businesses to manage visitor traffic effectively</p>
               </li>
             </ul>
           </div>
@@ -212,7 +209,7 @@ const VmsSection = () => {
 
       {/* VMS ON YOUR TAB */}
       <div className={`${styles.SOFTWARE_IN} ${styles.SUB_HEADING}`}>
-        <h3>Meeting Room Software on the Tab</h3>
+        <h3>Visitor Mangement System on the Tab</h3>
 
         <div className={styles.CONTAINER_IN}>
           <div className={styles.leftside_app}>
@@ -220,36 +217,100 @@ const VmsSection = () => {
               src={"/images/mrm_img.png"}
               width={300}
               height={250}
-              alt="meeting room on web"
+              alt="vms on tab"
             />
           </div>
 
           <div className={styles.RIGHTSIDE_IN}>
             <ul>
               <li>
-                <h4>Real-time Dashboard</h4>
+                <h4>Lorem, ipsum dolor.</h4>
                 <p>
-                  Provides real-time data and analytics on visitor traffic,
-                  enabling businesses to optimise resources and make informed
-                  decisions.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis porro, deserunt quasi mollitia necessitatibus
+                  voluptatem vel eaque quibusdam.
                 </p>
               </li>
               <li>
-                <h4>Adjust bookings instantly</h4>
+                <h4>Lorem, ipsum dolor.</h4>
                 <p>
-                  Instant adjustments to bookings, provide businesses with the
-                  adapt to changing circumstances.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  porro ab cupiditate. Lorem ipsum dolor sit.
                 </p>
               </li>
               <li>
-                <h4>Book with ease</h4>
+                <h4>Lorem, ipsum dolor.</h4>
                 <p>
-                  Easily manage bookings, whether it's scheduling appointments
-                  or reserving meeting rooms.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                  velit deserunt praesentium consequatur omnis.
                 </p>
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      <div className={`${styles.SOFTWARE_IN} ${styles.SUB_HEADING}`}>
+        <h3>Visitor Mangement System in your Calendar</h3>
+
+        <div className={styles.CONTAINER_IN}>
+          <div className={styles.leftside_app}>
+            <Image
+              src={"/images/mrm_img.png"}
+              width={300}
+              height={250}
+              alt="vms on tab"
+            />
+          </div>
+
+          <div className={styles.RIGHTSIDE_IN}>
+            <ul>
+              <li>
+                <h4>Repeat meetings taken care of</h4>
+                <p>
+                  Enabling businesses to easily schedule recurring appointments
+                  for seamless organization and efficiency
+                </p>
+              </li>
+              <li>
+                <h4>Instant Visitor Alerts</h4>
+                <p>
+                  Instant alerts when visitors arrive, enabling businesses to
+                  greet their guests promptly.
+                </p>
+              </li>
+              <li>
+                <h4>Easily integrate with google outlook</h4>
+                <p>
+                  Simplifying the management of meetings and appointments for
+                  businesses with an effortless and intuitive approach.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* VMS CHECK-IN EASE */}
+      <div className={`${styles.simplify} ${styles.SUB_HEADING}`}>
+        <h3>Configure your Visitor Check-in with Ease</h3>
+
+        <div className={styles.check_ins_container}>
+          <VisitorCheckInsCard
+            title="User Friendly"
+            img="/icons/userfriendly_icon.png"
+            desc="Designed to provide a user-friendly experience through intuitive interfaces and clear, easy-to-follow instructions."
+          />
+          <VisitorCheckInsCard
+            img="/icons/flexibile_icon.png"
+            title="Streamlined"
+            desc="Simplifies the visitor check-in, reducing the need for manual record-keeping and paperwork"
+          />
+          <VisitorCheckInsCard
+            img="/icons/commitment_icon.png"
+            title="Confidental Commitment"
+            desc="Simplifies the visitor management process, reducing the need for manual record-keeping and paperwork."
+          />
         </div>
       </div>
     </section>
