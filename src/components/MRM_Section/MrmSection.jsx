@@ -73,18 +73,21 @@ const MrmSection = () => {
 
         <div className={styles.book_ways}>
           <BookWaysCard
+            bg_color="rgb(162 170 212 / 17%)"
             head="On the Web"
             para="Get more detailed view and advanced management from the online portal."
             img="/images/book_app.png"
             img_alt="book on the web"
           />
           <BookWaysCard
+            bg_color="rgb(162 170 212 / 17%)"
             head="On the App"
             para="Search and book via the HIPLA App for IOS and Android."
             img="/images/book_app.png"
             img_alt="book from the app"
           />
           <BookWaysCard
+            bg_color="rgb(162 170 212 / 17%)"
             head="From your Calendar"
             para="Bring HIPLA into Microsoft Outlook with Smart Calendar."
             img="/images/book_app.png"

@@ -30,11 +30,11 @@
     padding: 2em;
     border-radius: 10px;
     border: 1px solid rgb(45 89 167 / 10%);
+    background-color: rgb(162 170 212 / 17%);
 }
 
 .RIGHTSIDE_IN ul {
     list-style-type: none;
-
 }
 
 .RIGHTSIDE_IN ul li {
@@ -110,7 +110,7 @@
 .main .mrm_txt ul li h6 {
     margin: 0;
     font-weight: 500;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 /* BOOK IN THREE WAYS - SECTION */
@@ -131,6 +131,9 @@
     justify-content: space-between;
     margin: 3em 0;
     width: 80%;
+    background-color: rgb(162 170 212 / 17%);
+    padding: 2em;
+    border-radius: 10px;
 }
 
 .calendar h3 {

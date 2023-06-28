@@ -3,7 +3,7 @@ import styles from "./BookWaysCard.module.css";
 
 const BookWaysCard = (props) => {
   const [customCSS, setCustomCSS] = useState({
-    bg_color: "#fff",
+    bg_color: `${props.bg_color}`,
     title: "#232323",
     desc: "#ffffffbf",
   });
