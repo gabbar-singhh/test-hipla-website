@@ -1,8 +1,7 @@
 import Head from "next/head";
 import styled from "styled-components";
-// import Script from "next/script";
 import HeroSection from "@/components/HeroSection/HeroSection";
-import MrmSection from "@/components/MRM_Section/MrmSection";
+import MrmSection from "@/components/MrmSection/MrmSection";
 
 import VmsSection from "@/components/VmsSection/VmsSection";
 

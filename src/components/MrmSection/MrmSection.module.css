@@ -29,7 +29,6 @@
     -webkit-backdrop-filter: blur(3.5px);
     padding: 2em;
     border-radius: 10px;
-    border: 1px solid rgb(45 89 167 / 10%);
     background-color: rgb(162 170 212 / 17%);
 }
 
@@ -70,7 +69,6 @@
     align-items: center;
     justify-content: center;
     gap: 5em;
-    /* height: 70vh; */
     margin: 2em 0;
 }
 

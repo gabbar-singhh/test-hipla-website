@@ -10,17 +10,19 @@
     -webkit-backdrop-filter: blur(3px);
     border-radius: 10px;
     width: 365px;
+    background-color: rgb(234 236 243);
 }
 
 .main h4 {
     margin: 0;
     color: #fff;
+    color: #2d59a7;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .main p {
-    color: #ffffffbf;
-    font-size: 1em;
+    color: #484848;
+    font-size: 14px;
 }

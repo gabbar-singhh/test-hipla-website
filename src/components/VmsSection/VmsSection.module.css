@@ -1,148 +1,147 @@
 /* CSS STYLES COMPONENTS */
 .SUB_HEADING h3 {
-    color: #fff;
-    font-size: 1.8em;
-    font-weight: 800;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.1;
-    margin-bottom: 0.5em;
+  color: #2d59a7;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.1;
+  margin-bottom: 0.5em;
 }
 
 .SOFTWARE_IN {
-    margin: 3em 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  margin: 3em 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .CONTAINER_IN {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 
-    padding: 0;
-    margin: 0;
-    backdrop-filter: blur(3.5px);
-    -webkit-backdrop-filter: blur(3.5px);
-    padding: 2em;
-    border-radius: 10px;
-    border: 1px solid rgb(45 89 167 / 10%);
+  padding: 0;
+  margin: 0;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid rgb(45 89 167 / 10%);
+  background-color: rgb(234 236 243);
 }
 
 .RIGHTSIDE_IN ul {
-    list-style-type: none;
-
+  list-style-type: none;
 }
 
 .RIGHTSIDE_IN ul li {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .RIGHTSIDE_IN ul li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .RIGHTSIDE_IN ul li h4 {
-    font-size: 1em;
-    font-weight: 600;
-    color: #232323;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  color: #232323;
 }
 
 .RIGHTSIDE_IN ul li p {
-    font-size: 14px;
-    text-align: left;
-    color: #484848;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffffbf;
+  color: #484848;
 }
 
 .main {
-    border-radius: 1em;
-    cursor: default;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #2d59a7;
-    padding: 3em 0;
+  border-radius: 1em;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 0;
+  margin: 0 5em;
 }
 
-.main_container {
-    margin: 0 5em;
-
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-.main .main_container .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5em;
-    margin-bottom: 2em;
+.main .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  margin-bottom: 2em;
 }
 
 .container .vms_txt h3 {
-    font-size: 2.4em;
-    color: #fff;
+  font-size: 2.4em;
+  color: #2d59a7;
 }
 
 .container .vms_txt p {
-    font-size: 15px;
-    color: #ffffffbf;
+  font-size: 15px;
+  color: #484848;
 }
 
 .container .vms_txt ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .container .vms_txt ul li {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    display: flex;
-    gap: 0.4em;
-    margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  color: #2d59a7;
+  display: flex;
+  gap: 0.4em;
+  margin-bottom: 0.5em;
 }
 
 .container .vms_txt ul li span {
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-    border-radius: 10px;
-    padding: 7px 8px;
-    background-color: rgb(79 118 186 / 45%);
-    box-shadow: 0 3px 22px 0 rgb(72 114 188 / 51%);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 7px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: rgb(162 170 212 / 17%);
+  box-shadow: 0 3px 22px 0 rgb(214 212 212 / 35%);
 }
 
 .container .vms_txt ul li h6 {
-    margin: 0;
-    font-weight: 500;
-    font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 /* Check-Ins Container */
+.simplify {
+  margin-top: 3em;
+}
+
 .simplify h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .simplify .check_ins_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 
 /* BOOK IN THREE WAYS - SECTION */
 .book_section {
-    margin: 3em 0;
-    text-align: center;
+  margin: 3em 0;
+  text-align: center;
 }
 
 .book_section .book_ways {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
