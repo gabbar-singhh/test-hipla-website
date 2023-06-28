@@ -266,10 +266,10 @@ const VmsSection = () => {
           <div className={styles.RIGHTSIDE_IN}>
             <ul>
               <li>
-                <h4>Repeat meetings taken care of</h4>
+                <h4>Easily integrate with google outlook</h4>
                 <p>
-                  Enabling businesses to easily schedule recurring appointments
-                  for seamless organization and efficiency
+                  Simplifying the management of meetings and appointments for
+                  businesses with an effortless and intuitive approach.
                 </p>
               </li>
               <li>
@@ -280,10 +280,10 @@ const VmsSection = () => {
                 </p>
               </li>
               <li>
-                <h4>Easily integrate with google outlook</h4>
+                <h4>Repeat meetings taken care of</h4>
                 <p>
-                  Simplifying the management of meetings and appointments for
-                  businesses with an effortless and intuitive approach.
+                  Enabling businesses to easily schedule recurring appointments
+                  for seamless organization and efficiency
                 </p>
               </li>
             </ul>
