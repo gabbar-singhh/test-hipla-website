@@ -22,8 +22,6 @@
     align-items: center;
     justify-content: center;
     gap: 2em;
-
-    padding: 0;
     margin: 0;
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
@@ -33,6 +31,8 @@
 }
 
 .RIGHTSIDE_IN ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -161,10 +161,168 @@
 
 /*MEDIA QUERIES TEMPLATE */
 /* SMALL MOBILE DEVICES OR FOR EXPREMENTING PEOPLE */
-@media screen and (min-width: 0px) and (max-width: 360px) {}
+@media screen and (min-width: 0px) and (max-width: 360px) {
+    .main .container .mrm_txt p {
+        font-size: 1.05em;
+    }
+
+    .main .mrm_txt ul li h6 {
+        font-size: 1em;
+    }
+
+    .main {
+        margin: 3em 1em;
+    }
+
+    .main .container {
+        margin: 0 0;
+        gap: 2em;
+        flex-direction: column-reverse;
+    }
+
+    .main .container .mrm_txt h3 {
+        font-size: 1.5em;
+    }
+
+    .RIGHTSIDE_IN ul li h4 {
+        font-size: 1.3em;
+    }
+
+    .RIGHTSIDE_IN ul li p {
+        font-size: 1em;
+    }
+
+    .container .mrm_img img {
+        height: 200px;
+    }
+
+    .book_section .book_ways {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .SUB_HEADING h3,
+    .SUB_HEADING div h3 {
+        text-align: center;
+    }
+
+    .CONTAINER_IN {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 2em;
+        padding: 1em;
+    }
+
+    .calendar {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar .calendar_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+        width: 932px;
+        padding: 1em 0.5em;
+    }
+
+    .card_container {
+        display: flex;
+        gap: 1em;
+    }
+
+    .calCard img {
+        width: 50px;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+}
 
 /* AVERAGE MOBILE DEVICES  */
-@media screen and (min-width: 360px) and (max-width: 480px) {}
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .main .container .mrm_txt p {
+        font-size: 1.05em;
+    }
+
+    .main .mrm_txt ul li h6 {
+        font-size: 1em;
+    }
+
+    .main {
+        margin: 3em 1em;
+    }
+
+    .main .container {
+        margin: 0 0;
+        gap: 2em;
+        flex-direction: column-reverse;
+    }
+
+    .main .container .mrm_txt h3 {
+        font-size: 1.8em;
+    }
+
+    .RIGHTSIDE_IN ul li h4 {
+        font-size: 1.3em;
+    }
+
+    .RIGHTSIDE_IN ul li p {
+        font-size: 1em;
+    }
+
+    .container .mrm_img img {
+        height: 200px;
+    }
+
+    .book_section .book_ways {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .SUB_HEADING h3 {
+        text-align: center;
+    }
+
+    .CONTAINER_IN {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 2em;
+        padding: 1em;
+    }
+
+    .calendar {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar .calendar_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+        width: 932px;
+        padding: 1em 0.5em;
+    }
+
+    .card_container {
+        display: flex;
+        gap: 1em;
+    }
+
+    .calCard img {
+        width: 50px;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+}
 
 /* IPADS AND TABLETS  */
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -174,7 +332,7 @@
     }
 
     .main {
-        margin: 2em;
+        margin: 1.5em;
     }
 
     .container {
@@ -200,7 +358,9 @@
     .CONTAINER_IN {
         flex-direction: column;
         width: 100%;
+        padding: 0;
         gap: 2em;
+        padding: 1em;
     }
 
     .calendar {
@@ -210,19 +370,27 @@
 
     .calendar .calendar_container {
         flex-direction: column;
+        text-align: center;
         gap: 1em;
         width: 932px;
+        padding: 1em 0.5em;
     }
 
     .card_container {
         display: flex;
-        gap: 0.8em;
-
+        gap: 1em;
     }
 
     .calCard img {
-        width: 100px;
+        width: 50px;
+        padding: 0;
+        margin: 0;
         height: auto;
+    }
+
+    .SUB_HEADING h3,
+    .SUB_HEADING div h3 {
+        font-size: 1.4em;
     }
 }
 

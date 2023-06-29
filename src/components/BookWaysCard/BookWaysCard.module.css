@@ -31,21 +31,88 @@
 
 /*MEDIA QUERIES TEMPLATE */
 /* SMALL MOBILE DEVICES OR FOR EXPREMENTING PEOPLE */
-@media screen and (min-width: 0px) and (max-width: 360px) {}
+@media screen and (min-width: 0px) and (max-width: 360px) {
+    .book_card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding: 0.8em 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .book_card span {
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .book_card span p,
+    .book_card span h4 {
+        text-align: left;
+    }
+
+    .book_card img {
+        width: 100px;
+        height: auto;
+    }
+}
 
 /* AVERAGE MOBILE DEVICES  */
-@media screen and (min-width: 360px) and (max-width: 480px) {}
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .book_card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding: 0.8em 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .book_card span {
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .book_card span p,
+    .book_card span h4 {
+        text-align: left;
+    }
+
+    .book_card img {
+        width: 100px;
+        height: auto;
+    }
+}
 
 /* IPADS AND TABLETS  */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .book_card {
-        flex-direction: column-reverse;
-        width: 300px;
-        padding: 1.2em;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding: 0.8em 1em;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .book_card span {
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .book_card span p,
+    .book_card span h4 {
+        text-align: left;
     }
 
     .book_card img {
-        width: 100%;
+        width: 100px;
         height: auto;
     }
 }

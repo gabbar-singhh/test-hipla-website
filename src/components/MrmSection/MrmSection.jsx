@@ -75,7 +75,7 @@ const MrmSection = () => {
           <BookWaysCard
             bg_color="rgb(162 170 212 / 17%)"
             head="On the Web"
-            para="Access detailed view, advanced management through online portal."
+            para="Access advanced management through online portal."
             img="/images/book_app.png"
             img_alt="book on the web"
           />
