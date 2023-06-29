@@ -75,7 +75,7 @@ const MrmSection = () => {
           <BookWaysCard
             bg_color="rgb(162 170 212 / 17%)"
             head="On the Web"
-            para="Get more detailed view and advanced management from the online portal."
+            para="Access detailed view, advanced management through online portal."
             img="/images/book_app.png"
             img_alt="book on the web"
           />
@@ -230,9 +230,11 @@ const MrmSection = () => {
       </div>
 
       {/* HIPLA CALENDARS INTEGRATIONS */}
-      <div className={`${styles.SUB_HEADING} ${styles.calendar}`}>
+      <div className={`${styles.calendar} ${styles.SUB_HEADING}`}>
+        <div className={styles.calendar_container}>
+
         <h3>
-          Meeting Room Software in your <br /> Calendar
+          Meeting Room Software in your Calendar
         </h3>
 
         <div className={`${styles.card_container}`}>
@@ -254,6 +256,8 @@ const MrmSection = () => {
           </div>
         </div>
       </div>
+      </div>
+
     </section>
   );
 };

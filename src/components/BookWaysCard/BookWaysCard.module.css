@@ -4,18 +4,14 @@
 }
 
 .book_card {
-    
     display: inline-block;
     margin: 0;
     width: 365px;
     padding: 2em;
-
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 10px;
-
-    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 .book_card h4 {
@@ -31,4 +27,50 @@
     font-size: 14px;
     text-align: center;
     color: #484848;
+}
+
+/*MEDIA QUERIES TEMPLATE */
+/* SMALL MOBILE DEVICES OR FOR EXPREMENTING PEOPLE */
+@media screen and (min-width: 0px) and (max-width: 360px) {}
+
+/* AVERAGE MOBILE DEVICES  */
+@media screen and (min-width: 360px) and (max-width: 480px) {}
+
+/* IPADS AND TABLETS  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .book_card {
+        flex-direction: column-reverse;
+        width: 300px;
+        padding: 1.2em;
+    }
+
+    .book_card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* SMALL SCREEN AND LAPTOP (LIKE ME!! LOL🤣) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .book_card {
+        width: 100%;
+        padding: 1.2em;
+    }
+
+    .book_card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* DESKTOP AND LARGE SCREEN */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .book_card {
+        width: 300px;
+    }
+
+    .book_card img {
+        width: 100%;
+        height: auto;
+    }
 }
