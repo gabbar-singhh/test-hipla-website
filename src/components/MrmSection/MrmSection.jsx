@@ -147,7 +147,7 @@ const MrmSection = () => {
 
         <div className={styles.CONTAINER_IN}>
           <div className={styles.leftside_web}>
-            <Image
+            <img
               src={"/images/mrm_software_in_web.png"}
               width={300}
               height={250}

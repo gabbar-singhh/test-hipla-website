@@ -74,8 +74,8 @@ const VmsSection = () => {
           <VisitorCheckInsCard
             title="Go paperless"
             img="/icons/paperless_icon.png"
-            desc=" Eliminates the need for paper-based visitor logs and enables an
-            eco-friendlier approach to visitor management"
+            desc=" Eliminates the need for paper-based visitor logs and also enables an
+            eco-friendlier approach to visitor management system."
           />
           <VisitorCheckInsCard
             img="/icons/secure_icon.png"
@@ -84,7 +84,7 @@ const VmsSection = () => {
           />
           <VisitorCheckInsCard
             img="/icons/insights_icon.png"
-            title="insights on visitor behaviour"
+            title="insights on visitor"
             desc="Captures visitor data and provides insights on visitor behaviour, enabling businesses to tailor their services and offerings."
           />
         </div>
@@ -99,7 +99,7 @@ const VmsSection = () => {
             desc_color="#484848"
             bg_color="rgb(234 236 243);"
             head="On the Web"
-            para="Get more detailed view and advanced management from the online portal."
+            para="Access advanced management through online portal."
             img="/images/book_app.png"
             img_alt="book on the web"
           />
@@ -130,7 +130,7 @@ const VmsSection = () => {
 
         <div className={styles.CONTAINER_IN}>
           <div className={styles.leftside_app}>
-            <Image
+            <img
               src={"/images/mrm_software_in_web.png"}
               width={300}
               height={250}
@@ -304,12 +304,12 @@ const VmsSection = () => {
           <VisitorCheckInsCard
             img="/icons/flexibile_icon.png"
             title="Streamlined"
-            desc="Simplifies the visitor check-in, reducing the need for manual record-keeping and paperwork"
+            desc="Simplify visitor check-in process, reducing the need for manual record-keeping and paperwork system."
           />
           <VisitorCheckInsCard
             img="/icons/commitment_icon.png"
             title="Confidental Commitment"
-            desc="Simplifies the visitor management process, reducing the need for manual record-keeping and paperwork."
+            desc="Sign an NDA preventing visitors from disclosing information about their experiences within a specific location."
           />
         </div>
       </div>

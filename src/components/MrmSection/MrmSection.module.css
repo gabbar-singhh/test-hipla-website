@@ -216,6 +216,11 @@
         padding: 1em;
     }
 
+    .CONTAINER_IN .leftside_web img {
+        height: auto;
+        width: 200px;
+    }
+
     .calendar {
         align-items: center;
         justify-content: center;
